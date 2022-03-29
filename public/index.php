@@ -34,6 +34,7 @@ Router::get('/new_book',[UsersController::class,'addbook']);
 Router::get('/new_category',[UsersController::class,'addcategory']);
 Router::get('/new_auther',[UsersController::class,'addauther']);
 Router::get('/new_publisher',[UsersController::class,'addpublisher']);
+Router::get('/new_cities',[UsersController::class,'addcities']);
 
 
 

@@ -56,6 +56,11 @@ class UsersController extends Controller{
         $this->view("add_publisher");
     }
 
+    public function addcities(){
+        $this->view("add_cities");
+    }
+
+
 
 
     public function delete(){
