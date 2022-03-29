@@ -249,7 +249,7 @@
       </a>
       <ul class="menu-sub">
         <li class="menu-item">
-          <a href="forms-basic-inputs.html" class="menu-link">
+          <a href="new_user" class="menu-link">
             <div>ADD User</div>
           </a>
         </li>
@@ -261,8 +261,8 @@
           </a>
         </li>
         <li class="menu-item">
-          <a href="forms-custom-options.html" class="menu-link">
-            <div data-i18n="Custom Options">Custom Options</div>
+          <a href="new_auther" class="menu-link">
+            <div ">ADD  Auther</div>
           </a>
         </li>
         <li class="menu-item">
