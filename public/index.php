@@ -28,6 +28,7 @@ Router::get('/books',function(){
 });
 
 Router::get('/new_user',[UsersController::class,'register']);
+Router::get('/new_user',[UsersController::class,'adduser']);
 Router::get('/new_book',[UsersController::class,'addbook']);
 
 Router::get('/new_category',[UsersController::class,'addcategory']);
