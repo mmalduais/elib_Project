@@ -38,6 +38,8 @@ Router::get('/new_cities',[UsersController::class,'addcities']);
 Router::get('/new_offer',[UsersController::class,'addoffer']);
 Router::get('/new_order',[UsersController::class,'addorder']);
 Router::get('/new_payment',[UsersController::class,'addpayment']);
+Router::get('/new_useraddres',[UsersController::class,'adduseraddres']);
+
 
 
 

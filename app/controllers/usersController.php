@@ -71,6 +71,11 @@ class UsersController extends Controller{
     public function addpayment(){
         $this->view("add_payment");
     }
+    
+    public function adduseraddres(){
+        $this->view("add_useraddres");
+    }
+
 
 
 

@@ -298,7 +298,7 @@
         </li>
         <li class="menu-item">
           <a href="new_useraddres" class="menu-link">
-            <div>User_Addres</div>
+            <div data-i18n="Extras">User_Addres</div>
           </a>
         </li>
       </ul>
@@ -887,9 +887,9 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">Multi Column with Form Separator</h5>
+  <h5 class="card-header"> عنوان المستخدم</h5>
   <form class="card-body" action="/save_user" method="POST">
-    <h6>1. Account Details</h6>
+ 
     <div class="row g-3">
       <div class="col-md-6">
         <label class="form-label" for="multicol-username">Username</label>
