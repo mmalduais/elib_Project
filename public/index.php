@@ -36,6 +36,8 @@ Router::get('/new_auther',[UsersController::class,'addauther']);
 Router::get('/new_publisher',[UsersController::class,'addpublisher']);
 Router::get('/new_cities',[UsersController::class,'addcities']);
 Router::get('/new_offer',[UsersController::class,'addoffer']);
+Router::get('/new_order',[UsersController::class,'addorder']);
+
 
 
 

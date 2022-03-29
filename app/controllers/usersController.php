@@ -64,6 +64,11 @@ class UsersController extends Controller{
         $this->view("add_offer");
     }
 
+    public function addorder(){
+        $this->view("add_order");
+    }
+
+
 
 
 
