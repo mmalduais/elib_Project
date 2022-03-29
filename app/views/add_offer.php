@@ -277,13 +277,13 @@
           </a>
         </li>
         <li class="menu-item">
-          <a href="new_cities" class="menu-link">
-            <div >Cities</div>
+          <a href="forms-pickers.html" class="menu-link">
+            <div data-i18n="Pickers">Pickers</div>
           </a>
         </li>
         <li class="menu-item">
-          <a href="new_offer" class="menu-link">
-            <div>Offers</div>
+          <a href="forms-selects.html" class="menu-link">
+            <div data-i18n="Select &amp; Tags">Select &amp; Tags</div>
           </a>
         </li>
         <li class="menu-item">
@@ -887,33 +887,69 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">Multi Column with Form Separator</h5>
+  <h5 class="card-header">اضافة طلبات</h5>
   <form class="card-body" action="/save_user" method="POST">
-    <h6>1. Account Details</h6>
+  
     <div class="row g-3">
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">Username</label>
-        <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
+        <label class="form-label" for="multicol-username">Title_Offer</label>
+        <input name="title" type="text" id="multicol-username" class="form-control" placeholder="new.book" />
       </div>
+
+
       <div class="col-md-6">
-        <label class="form-label" for="multicol-email">Email</label>
+        <label class="form-label" for="multicol-email">Discount</label>
         <div class="input-group input-group-merge">
-          <input  name="email"type="text" id="multicol-email" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
-          <span class="input-group-text" id="multicol-email2">@example.com</span>
+          <input  name="discount"type="text" id="multicol-email" class="" placeholder="" aria-label="john.doe" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">%$</span>
         </div>
       </div>
+
+
       <div class="col-md-6">
         <div class="form-password-toggle">
-          <label class="form-label" for="multicol-password">Password</label>
+          <label class="form-label" for="multicol-password">book_ids</label>
           <div class="input-group input-group-merge">
-            <input  name="password" type="password" id="multicol-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multicol-password2" />
-            <span class="input-group-text cursor-pointer" id="multicol-password2"><i class="bx bx-hide"></i></span>
+            <input  name="book_ids" type="number" id="" class=""  />
+            <span class="" id="multicol-password2"></span>
           </div>
         </div>
       </div>
+
+      
       <div class="col-md-6">
         <div class="form-password-toggle">
-          <label class="form-label" for="multicol-confirm-password">user activation</label>
+          <label class="form-label" for="multicol-password">category_ids</label>
+          <div class="input-group input-group-merge">
+            <input  name="book_ids" type="number" id="" class=""  />
+            <span class="" id="multicol-password2"></span>
+          </div>
+        </div>
+      </div>
+     
+     
+
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">Start-Date</label>
+        <div class="input-group input-group-merge">
+          <input  name="start_date"type="date" id="multicol-email" class="" placeholder="20/ / /" aria-label="john.doe" aria-describedby="multicol-email2" />
+ 
+        </div>
+
+        <div class="col-md-6">
+        <label class="form-label" for="multicol-email">End-Date</label>
+        <div class="input-group input-group-merge">
+          <input  name="end_date"type="date" id="multicol-email" class="" placeholder="20/ / /" aria-label="john.doe" aria-describedby="multicol-email2" />
+ 
+        </div>
+      </div>
+    
+
+     
+     
+      <div class="col-md-6">
+        <div class="form-password-toggle">
+          <label class="form-label" for="multicol-confirm-password">Offer activation</label>
           <div class="input-group input-group-merge">
           <label class="switch">
               <input name="is_active" value=1 type="checkbox" checked class="switch-input" />

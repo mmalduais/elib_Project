@@ -60,6 +60,10 @@ class UsersController extends Controller{
         $this->view("add_cities");
     }
 
+    public function addoffer(){
+        $this->view("add_offer");
+    }
+
 
 
 
