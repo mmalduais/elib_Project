@@ -68,6 +68,10 @@ class UsersController extends Controller{
         $this->view("add_order");
     }
 
+    public function addpayment(){
+        $this->view("add_payment");
+    }
+
 
 
 
