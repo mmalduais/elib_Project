@@ -887,14 +887,46 @@
 
 <!-- Multi Column with Form Separator -->
 <div class="card mb-4">
-  <h5 class="card-header">Multi Column with Form Separator</h5>
+  <h5 class="card-header">اضافة الناشر</h5>
   <form class="card-body" action="/save_user" method="POST">
-    <h6>1. Account Details</h6>
+
     <div class="row g-3">
       <div class="col-md-6">
-        <label class="form-label" for="multicol-username">Username</label>
+        <label class="form-label" for="multicol-username">Name_Publisher</label>
         <input name="name" type="text" id="multicol-username" class="form-control" placeholder="john.doe" />
       </div>
+
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">Image For book</label>
+        <div class="input-group input-group-merge">
+          <input  name="image"type="file" id="" class="form-control" placeholder="john.doe" aria-label="john.doe" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">image.book</span>
+        </div>
+      </div>
+      
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">Phone</label>
+        <div class="input-group input-group-merge">
+          <input  name="phone"type="number" id="multicol-email" class="" placeholder="" aria-label="" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">+00967</span>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">Alt_Phone</label>
+        <div class="input-group input-group-merge">
+          <input  name="alt_phone"type="number" id="multicol-email" class="" placeholder="" aria-label="" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">+00967</span>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <label class="form-label" for="multicol-email">Fax</label>
+        <div class="input-group input-group-merge">
+          <input  name="fax"type="number" id="multicol-email" class="" placeholder="" aria-label="" aria-describedby="multicol-email2" />
+          <span class="input-group-text" id="multicol-email2">+001122</span>
+        </div>
+      </div>
+
       <div class="col-md-6">
         <label class="form-label" for="multicol-email">Email</label>
         <div class="input-group input-group-merge">
@@ -902,12 +934,29 @@
           <span class="input-group-text" id="multicol-email2">@example.com</span>
         </div>
       </div>
+
       <div class="col-md-6">
         <div class="form-password-toggle">
-          <label class="form-label" for="multicol-password">Password</label>
+          <label class="form-label" for="multicol-confirm-password">address</label>
           <div class="input-group input-group-merge">
-            <input  name="password" type="password" id="multicol-password" class="form-control" placeholder="&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;&#xb7;" aria-describedby="multicol-password2" />
-            <span class="input-group-text cursor-pointer" id="multicol-password2"><i class="bx bx-hide"></i></span>
+          <label class="switch">
+              <!-- <input name="description"  type="text"  /> -->
+              <textarea name="address"  cols="50" rows ="5">    </textarea>
+             
+              
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+      <div class="col-md-6">
+        <div class="form-password-toggle">
+          <label class="form-label" for="multicol-password">Country</label>
+          <div class="input-group input-group-merge">
+            <input  name="country" type="text" id="multicol-password" class="form-control"  aria-describedby="multicol-password2" />
+            <span class="input-group-text cursor-pointer" id="multicol-password2"></span>
           </div>
         </div>
       </div>

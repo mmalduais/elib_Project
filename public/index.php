@@ -29,10 +29,11 @@ Router::get('/books',function(){
 
 Router::get('/new_user',[UsersController::class,'register']);
 Router::get('/new_book',[UsersController::class,'addbook']);
-Router::get('/new_book',[UsersController::class,'adduser']);
 
 Router::get('/new_category',[UsersController::class,'addcategory']);
 Router::get('/new_auther',[UsersController::class,'addauther']);
+Router::get('/new_publisher',[UsersController::class,'addpublisher']);
+
 
 
 

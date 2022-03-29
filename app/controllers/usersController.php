@@ -35,7 +35,7 @@ class UsersController extends Controller{
         $this->view("new_user");
     }
 
-    
+
     public function addbook(){
         $this->view("add_book");
     }
@@ -49,6 +49,9 @@ class UsersController extends Controller{
     }
 
 
+  public function addpublisher(){
+        $this->view("add_publisher");
+    }
 
 
 
