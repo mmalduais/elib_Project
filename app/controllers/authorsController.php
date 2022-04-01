@@ -3,7 +3,7 @@ namespace coding\app\controllers;
 
 use coding\app\models\AUthor;
 
-class AuthorsController{
+class AuthorsController extends Controller  {
 
     public function createAuthor(){
         $author=new AUthor();

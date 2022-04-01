@@ -1551,6 +1551,11 @@
           
           foreach ($params as $key => $value){
           ?>
+          <script>
+            setInterval(function () {
+              location.href = "/new_user";
+            }, 5000);
+          </script>
         <div class="alert alert-<?php echo $key ;?> alert-dismissible" role="alert">
           <?php echo $value;?>
           <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">

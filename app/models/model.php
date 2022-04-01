@@ -28,10 +28,19 @@ class Model{
    
         $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
         if($stmt->execute())
+        return true;
         return false;
-        return false;
-       // return true;
-     //echo $sql_query;
+
     }
+    public function getAll(){
+        $sql_query="select * from ".self::$tblName."";
+        $stmt=AppSystem::$appSystem->database->pdo->prepare($sql_query);
+        $stmt->execute();
+        return $stmt->fetchAll();
+
+    }
+}
+?>
+
 }
 ?>
